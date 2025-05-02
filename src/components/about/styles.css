@@ -1,0 +1,129 @@
+.about-1 {
+  width: var(--def-width);
+  display: flex;
+  justify-content: space-between;
+  margin-inline: auto;
+  /* box-shadow: 0 0 8px 2px whitesmoke; */
+  margin-bottom: 120px;
+}
+
+.col-1 {
+  color: white;
+  width: 36%;
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  box-shadow: 0 0 8px 2px #ededed;
+  border-radius: 17px;
+  background: var(--dark-brown);
+}
+
+.col-2 {
+  width: 62%;
+  height: 40vh;
+  box-shadow: 0 0 8px 2px #ededed;
+  border-radius: 19px;
+  background: var(--light-brown);
+  /* padding-top: 20px; */
+  background: url("../../assets/sec-about-img.png");
+  display: flex;
+  background-size: cover;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h3 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.align-btom {
+  margin-top: auto;
+  display: flex;
+  width: 98%;
+  margin-inline: auto;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 14px;
+  /* border: 1px solid black; */
+  padding-inline: 10px;
+  align-items: center;
+}
+
+.align-bt-right-container {
+  width: 45%;
+  /* border: 1px solid black; */
+}
+
+h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.col-1-header {
+  margin-top: 20px;
+  padding-inline: 17px;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
+}
+
+.circle {
+  background: var(--light-brown);
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
+}
+
+.col-2 > div > h2 {
+  font-size: 22px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.col-2 > div:nth-child(1) {
+  width: 66%;
+  padding-inline: 25px;
+}
+
+.col-2 > div:nth-child(1) > p {
+  margin-bottom: 7px;
+}
+
+.light-brown-side-img {
+  border-left: 6px solid #6a674e;
+  width: 45%;
+  height: 100%;
+  background: var(--dark-brown);
+  border-top-left-radius: 999px;
+  border-bottom-left-radius: 999px;
+  border-top-right-radius: 99px;
+  border-bottom-right-radius: 99px;
+}
+
+.col-2 {
+  font-size: 13.25px;
+}
+
+@media (max-width: 1064px) {
+  .about-1 {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 1rem;
+  }
+  .col-2 {
+    width: 90vw;
+  }
+  .col-1 {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 720px) {
+  .col-2 > div > p {
+    font-size: 60%;
+    border: 1px solid black;
+  }
+}

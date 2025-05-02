@@ -1,0 +1,109 @@
+.about-2 {
+  width: var(--def-width);
+  margin-inline: auto;
+  min-height: 400px;
+  margin-bottom: 180px;
+}
+
+.about-2-container-1 {
+  position: relative;
+  height: 500px; /* Enough height to stack the cards */
+}
+
+.card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100%; /* or whatever you want */
+  height: 400px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* soft shadow */
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Stacking effect */
+.card:nth-child(1) {
+  top: 0%;
+  z-index: 1;
+}
+.card:nth-child(2) {
+  top: 5%;
+  z-index: 2;
+}
+.card:nth-child(3) {
+  top: 10%;
+  z-index: 3;
+}
+.card:nth-child(4) {
+  top: 15%;
+  z-index: 4;
+}
+.card:nth-child(5) {
+  top: 20%;
+  z-index: 5;
+}
+
+.card:nth-child(1)>.img {
+  background: green
+}
+.card:nth-child(2)>.img {
+  background: rgb(100, 94, 94);
+}
+.card:nth-child(3)>.img {
+  background: grey;
+}
+.card:nth-child(4)>.img {
+  background: rgb(180, 117, 117);
+}
+
+.img {
+  background: #a84c4c;
+  height: 100%;
+  width: 55%;
+  border-radius: 20px;
+}
+
+.left-col {
+  width: 64%;
+  height: 100%;
+}
+
+.about-2>.txt-box {
+  font-size: 32px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.left-col {
+  padding-left: 40px;
+}
+
+.left-col>h3 {
+  text-transform: capitalize;
+}
+
+.left-col>h3>span {
+  color: var(--dark-brown);
+}
+
+.left-col>h2 {
+  margin-top: 70px;
+  color: var(--dark-brown);
+  font-size: 40px;
+  margin-bottom: 30px;
+  opacity: .5;
+}
+
+.left-col>p {
+  width: 80%;
+  font-size: 15.25px;
+  /* color: ; */
+  margin-top: 30px;
+  line-height: 1.25;
+}

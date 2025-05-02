@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font: inherit;
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --def-width: 72vw;
+  --def-smaller-col-width: 35%;
+  --light-brown: #FFFEF2;
+  --dark-brown: #967E66;
+}
+
+body {
+  background: whitesmoke;
+}
+
+h2.logo {
+  font-family: "Comfortaa", sans-serif;
+  letter-spacing: -1.5px;
+}
