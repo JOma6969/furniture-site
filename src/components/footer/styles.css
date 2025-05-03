@@ -179,3 +179,29 @@
     padding-top: 30px;
   }
 }
+
+@media (max-width: 1000px) {
+  .footer {
+    width: 90vw;
+  }
+  
+  .footer-contaienr {
+    width: 90vw;
+    margin-inline: auto;
+    /* border: 1px solid black; */
+  }
+
+  .footer-contaienr>h3 {
+    /* border: 1px solid black; */
+    font-size: 30px;
+  }
+
+  .left-footer-col-top {
+    width: 100%;
+    /* display: block; */
+    padding: 0 !important;
+    margin-left: 0 !important;
+    margin-inline: auto !important;
+    /* border: 1px solid black; */
+  }  
+}
