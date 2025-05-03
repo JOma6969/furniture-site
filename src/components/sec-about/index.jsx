@@ -28,7 +28,7 @@ export default function AboutTwo() {
             <h2>5</h2>
             <h3>after-sale <span>support</span> <br /> and <span>maintenance</span></h3>
             <p>
-              our commitment to your satisfaction extends beyond the trial installation. we conduct a thorough trial walkthrough to ensure your satisfaction and also comprehensive after-sales for majority claims, manufacture, and cane instructions
+              Our commitment to your satisfaction extends beyond the trial installation. we conduct a thorough trial walkthrough to ensure your satisfaction and also comprehensive after-sales for majority claims, manufacture, and cane instructions.
             </p>
           </div>
           <div className="img"></div>

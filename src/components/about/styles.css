@@ -20,7 +20,8 @@
 
 .col-2 {
   width: 62%;
-  height: 40vh;
+  /* height: 40vh; */
+  padding: 1.5rem 0; 
   box-shadow: 0 0 8px 2px #ededed;
   border-radius: 19px;
   background: var(--light-brown);
@@ -90,6 +91,7 @@ h4 {
 
 .col-2 > div:nth-child(1) > p {
   margin-bottom: 7px;
+
 }
 
 .light-brown-side-img {
@@ -122,8 +124,12 @@ h4 {
 }
 
 @media (max-width: 720px) {
-  .col-2 > div > p {
-    font-size: 60%;
-    border: 1px solid black;
+  .col-2>div>p {
+    width: 98%;
+  }
+
+  .col-2>div {
+    /* color: white; */
+    width: 98% !important;
   }
 }
