@@ -28,37 +28,37 @@
 }
 
 /* Stacking effect */
-.card:nth-child(1) {
+.first {
   top: 0%;
   z-index: 1;
 }
-.card:nth-child(2) {
+.second {
   top: 5%;
   z-index: 2;
 }
-.card:nth-child(3) {
+.third {
   top: 10%;
   z-index: 3;
 }
-.card:nth-child(4) {
+.fourth {
   top: 15%;
   z-index: 4;
 }
-.card:nth-child(5) {
+.last {
   top: 20%;
   z-index: 5;
 }
 
-.card:nth-child(1)>.img {
-  background: green
+.card:nth-child(1) > .img {
+  background: green;
 }
-.card:nth-child(2)>.img {
+.card:nth-child(2) > .img {
   background: rgb(100, 94, 94);
 }
-.card:nth-child(3)>.img {
+.card:nth-child(3) > .img {
   background: grey;
 }
-.card:nth-child(4)>.img {
+.card:nth-child(4) > .img {
   background: rgb(180, 117, 117);
 }
 
@@ -74,7 +74,7 @@
   height: 100%;
 }
 
-.about-2>.txt-box {
+.about-2 > .txt-box {
   font-size: 32px;
   text-transform: capitalize;
   margin-bottom: 20px;
@@ -84,23 +84,23 @@
   padding-left: 40px;
 }
 
-.left-col>h3 {
+.left-col > h3 {
   text-transform: capitalize;
 }
 
-.left-col>h3>span {
+.left-col > h3 > span {
   color: var(--dark-brown);
 }
 
-.left-col>h2 {
+.left-col > h2 {
   margin-top: 70px;
   color: var(--dark-brown);
   font-size: 40px;
   margin-bottom: 30px;
-  opacity: .5;
+  opacity: 0.5;
 }
 
-.left-col>p {
+.left-col > p {
   width: 80%;
   font-size: 15.25px;
   /* color: ; */
