@@ -91,6 +91,7 @@
   width: 42%;
   font-size: 25px;
   margin-inline: auto;
+  text-align: center;
 }
 
 :is(h2, h3, h4, h5, h6) {
@@ -101,6 +102,11 @@
   width: 90%;
   margin-inline: auto;
   margin-top: 10px;
+  text-align: center;
+}
+
+.right-footer-col>h3 {
+  text-align: center;
 }
 
 .right-footer-col>p:nth-child(2) {
@@ -134,7 +140,8 @@
   height: 40px;
   width: 40px;
   background: var(--dark-brown);
-  margin-left: 30%;
+  /* margin-left: 30%; */
+  margin-inline: auto;
   margin-top: 10px;
   border-radius: 50%;
 }
